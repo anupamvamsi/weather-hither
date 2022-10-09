@@ -1,0 +1,39 @@
+{
+  "name": "weather-hither",
+  "version": "1.0.0",
+  "description": "Project 12 (TheOdinProject)",
+  "private": "true",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch",
+    "start": "webpack serve --open-app-name dfirefox",
+    "build": "webpack",
+    "eslint-check": "npx eslint-config-prettier src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anupamvamsi/weather-hither.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anupamvamsi/weather-hither/issues"
+  },
+  "homepage": "https://github.com/anupamvamsi/weather-hither#readme",
+  "devDependencies": {
+    "@babel/core": "^7.19.3",
+    "@babel/preset-env": "^7.19.3",
+    "babel-loader": "^8.2.5",
+    "css-loader": "^6.7.1",
+    "eslint": "^8.25.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.6.1",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.11.1"
+  }
+}
