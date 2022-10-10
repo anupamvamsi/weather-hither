@@ -7,6 +7,22 @@
   </head>
 
   <body>
-    <div class="content"></div>
+    <h1 class="title">WeatherHither</h1>
+    <div class="content">
+      <div class="icon-and-temp">
+        <img class="weather-icon" />
+        <p class="weather-temp"></p>
+      </div>
+      <h2 class="weather-place"></h2>
+    </div>
+    <input
+      class="weather-search"
+      title="Search"
+      type="search"
+      aria-describedby="search-desc"
+    />
+    <p hidden id="search-desc">
+      Search for a valid city to get its weather data.
+    </p>
   </body>
 </html>
